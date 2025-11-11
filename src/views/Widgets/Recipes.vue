@@ -97,7 +97,7 @@ function clearFilter(type) {
               <li v-for="time in prepOptions" :key="time">
                 <label class="flex items-center px-4 py-2 cursor-pointer hover:bg-gray-50">
                   <input type="radio" name="prepTime" :value="time" v-model="selectedPrep" class="mr-2">
-                  {{ time }} minutes
+                  {{ time }} minutes 
                 </label>
               </li>
               <li class="border-t mt-1">
