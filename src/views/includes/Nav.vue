@@ -16,7 +16,7 @@ const isMobileLike = computed(() => device.value !== 'desktop')
     <header class="sticky top-0 z-30 backdrop-blur border-b border-slate-200">
         <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
             <div class="flex items-center gap-2">
-                <img src="@/assets/svgs/Logo.svg" alt="Healthy Recipe Finder logo" />
+                <img src="@/assets/svgs/logo.svg" alt="Healthy Recipe Finder logo" />
             </div>
             <nav v-show="isDesktop" class="flex items-center gap-6">
                 <RouterLink class="text-emerald-900 hover:text-emerald-700 transition" to="/">Home</RouterLink>
