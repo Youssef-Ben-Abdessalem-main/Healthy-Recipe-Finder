@@ -91,13 +91,9 @@ const beyondPlatePoints = [
         <div class="space-y-8 flex flex-col gap-y-10">
           <article v-for="item in whyItems" :key="item.title" class="flex gap-4 items-start">
             <span class="text-dark-green text-xl mr-4 mt-1">
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10l-3.293-3.293a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                  clip-rule="evenodd"></path>
-              </svg>
+              <img src="@/assets/svgs/icon-bullet-point.svg" alt="Serving"/>
             </span>
-            <div>
+            <div class="w-full">
               <h3 class="text-xl font-semibold text-emerald-900">
                 {{ item.title }}
               </h3>
@@ -119,13 +115,9 @@ const beyondPlatePoints = [
         <div class=" flex flex-col gap-y-10">
           <article v-for="item in philosophyItems" :key="item.title" class="flex gap-4 items-start">
             <span class="text-dark-green text-xl mr-4 mt-1">
-              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10l-3.293-3.293a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                  clip-rule="evenodd"></path>
-              </svg>
+              <img src="@/assets/svgs/icon-bullet-point.svg" alt="Serving"/>
             </span>
-            <div>
+            <div class="w-full">
               <h3 class="text-lg font-semibold text-emerald-900">
                 {{ item.title }}
               </h3>
